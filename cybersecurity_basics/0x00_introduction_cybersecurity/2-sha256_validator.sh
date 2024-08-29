@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$2  $1" | sha256sum -c -
+sha256sum $1 > checksum.sha256 | sha256sum -c checksum.sha256
