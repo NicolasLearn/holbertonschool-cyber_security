@@ -1,0 +1,85 @@
+Learning Objectives to Passive Reconnaissance Project
+
+What can we learn about a Server
+Que peut-on apprendre sur un serveur ?
+
+Réponse : En examinant un serveur, nous pouvons obtenir diverses informations telles que son adresse IP, les services qu'il exécute (par exemple, HTTP, FTP, SSH), ses ports ouverts, son système d'exploitation, ses enregistrements DNS, et parfois même des détails sur ses vulnérabilités. Ces informations peuvent être collectées via des outils de reconnaissance, d'analyse réseau ou des scans de ports.
+
+
+What is a DNS server
+Qu'est-ce qu'un serveur DNS ?
+
+Réponse : Un serveur DNS (Domain Name System) est un serveur qui traduit les noms de domaine lisibles par l’homme (comme www.holbertonschool.com) en adresses IP numériques que les ordinateurs utilisent pour localiser les services et les appareils sur Internet. C'est un élément essentiel pour permettre la navigation sur le Web, car il facilite la conversion des noms de domaine en adresses IP.
+
+
+What happens when we type www.holbertonschool.com and press ENTER
+Que se passe-t-il lorsque nous tapons www.holbertonschool.com et appuyons sur ENTER ?
+
+Réponse : Lorsque vous tapez www.holbertonschool.com et appuyez sur Entrée, plusieurs étapes se produisent :
+Résolution DNS : Votre ordinateur interroge un serveur DNS pour obtenir l'adresse IP associée à www.holbertonschool.com.
+Connexion TCP/IP : Une connexion est établie entre votre ordinateur et le serveur à l'adresse IP obtenue.
+Requête HTTP : Votre navigateur envoie une requête HTTP (ou HTTPS) au serveur pour demander la page Web.
+Réponse du Serveur : Le serveur répond avec le contenu de la page Web demandée.
+Affichage : Votre navigateur interprète et affiche la page Web sur votre écran.
+
+
+How can we find the owner information for a domain name
+Comment peut-on trouver les informations du propriétaire d’un nom de domaine ?
+
+Réponse : Pour trouver les informations du propriétaire d'un nom de domaine, on peut utiliser la commande whois. Cette commande interroge une base de données publique pour obtenir des détails tels que le nom du propriétaire, l'adresse, les coordonnées, et les dates d'enregistrement du domaine.
+
+
+What is dig
+Qu'est-ce que dig ?
+
+Réponse : dig (Domain Information Groper) est un outil en ligne de commande utilisé pour interroger les serveurs DNS et obtenir des informations détaillées sur des enregistrements DNS. Il est souvent utilisé pour résoudre des problèmes de DNS ou pour effectuer des recherches DNS approfondies.
+
+
+What is nslookup
+Qu'est-ce que nslookup ?
+
+Réponse : nslookup est un outil en ligne de commande qui interroge les serveurs DNS pour obtenir des informations sur des noms de domaine ou des adresses IP. C'est un outil plus simple que dig mais qui reste utile pour des vérifications rapides de DNS.
+
+
+What are the different types of DNS RECORDS
+Quels sont les différents types d'enregistrements DNS ?
+
+Réponse : Les principaux types d'enregistrements DNS sont :
+A (Address) : Associe un nom de domaine à une adresse IPv4.
+AAAA : Associe un nom de domaine à une adresse IPv6.
+MX (Mail Exchange) : Indique les serveurs de messagerie pour le domaine.
+CNAME (Canonical Name) : Alias pour un autre nom de domaine.
+NS (Name Server) : Indique les serveurs DNS responsables du domaine.
+TXT : Contient des informations textuelles arbitraires, souvent utilisées pour SPF ou des vérifications de sécurité.
+PTR : Enregistrement inverse, associe une adresse IP à un nom de domaine.
+SRV : Indique les services spécifiques disponibles sous le domaine.
+
+
+What is DNS Dumpster
+Qu'est-ce que DNS Dumpster ?
+
+Réponse : DNS Dumpster est un outil en ligne gratuit utilisé pour la reconnaissance passive. Il permet de cartographier les enregistrements DNS d'un domaine spécifique pour identifier les sous-domaines, les adresses IP associées, et d'autres informations relatives à l'infrastructure réseau du domaine.
+
+
+What is Shodan.io
+Qu'est-ce que Shodan.io ?
+
+Réponse : Shodan.io est un moteur de recherche spécialisé qui permet de trouver des appareils connectés à Internet (comme des caméras, des routeurs, des serveurs, etc.). Contrairement à un moteur de recherche traditionnel, Shodan interroge les appareils eux-mêmes et collecte des informations sur les services qu'ils exécutent, les ports ouverts, les vulnérabilités, etc.
+
+
+How can we find subdomains
+Comment peut-on trouver des sous-domaines ?
+
+Réponse : Pour trouver des sous-domaines, on peut utiliser des outils de reconnaissance tels que subfinder, theHarvester, amass, ou effectuer des requêtes DNS manuelles avec des outils comme dig et nslookup. Ces outils interrogent les serveurs DNS et d'autres sources pour identifier les sous-domaines associés à un domaine principal.
+
+
+What is subfinder
+Qu'est-ce que subfinder ?
+
+Réponse : subfinder est un outil de reconnaissance passive conçu pour trouver des sous-domaines d'un domaine spécifique. Il interroge une grande variété de sources pour découvrir des sous-domaines et les valide ensuite pour vérifier leur existence.
+
+
+What is the difference between Active reconnaissance and Passive reconnaissance
+Quelle est la différence entre reconnaissance active et reconnaissance passive ?
+
+Réponse : La reconnaissance passive consiste à collecter des informations sur une cible sans interagir directement avec elle, en utilisant des sources publiques et tierces. La reconnaissance active, en revanche, implique une interaction directe avec la cible, comme l'envoi de requêtes de scan de ports ou d'autres formes de sondage réseau, ce qui peut alerter la cible de la collecte d'informations.
