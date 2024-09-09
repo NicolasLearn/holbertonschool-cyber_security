@@ -1,4 +1,4 @@
-# Rapport sur le domaine holbertonschool.com
+# Domain Report : Holbertonschool.com
 
 ## Introduction
 This report presents a detailed analysis of the holbertonschool.com domain using the Shodan tool. The goal of this study is to examine publicly available information about subdomains, associated IP addresses, technologies used, server versions, and other technical aspects such as open ports, SSL/TLS versions, and the organizations hosting these services. This type of passive reconnaissance is useful for gaining insight into the potential attack surface of a domain.
