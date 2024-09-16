@@ -11,4 +11,6 @@
 ## network_security
 
 ### 0x01_passive_reconnaissance
+### 0x02 active_reconnaissance
+### 0x04_nmap_live_hosts_discovery
 
