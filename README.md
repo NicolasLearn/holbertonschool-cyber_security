@@ -1,6 +1,6 @@
 # holbertonschool-cyber_security
 
-![Cybersecurity Image]([./screenshots/cybersecurity_dashboard.png](https://datascientest.com/wp-content/uploads/2021/04/DALL%C2%B7E-2024-01-23-17.44.21-Creation-dune-illustration-plus-specifique-a-la-cybersecurite-pour-un-article-en-format-16_9.-Limage-doit-evoquer-clairement-la-cybersecurite-avec-.png))
+![Cybersecurity Image](https://datascientest.com/wp-content/uploads/2021/04/DALL%C2%B7E-2024-01-23-17.44.21-Creation-dune-illustration-plus-specifique-a-la-cybersecurite-pour-un-article-en-format-16_9.-Limage-doit-evoquer-clairement-la-cybersecurite-avec-.png)
 
 Bienvenue dans le dépôt de cybersécurité. Ce projet est une collection de défis et d'exercices visant à développer les compétences en sécurité numérique, en particulier dans les domaines de la sécurité des systèmes Linux, la reconnaissance réseau, et l'analyse de trafic. Chaque projet présente des outils et des techniques utilisés dans le domaine pour comprendre et contrer les menaces actuelles.
 
