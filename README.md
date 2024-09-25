@@ -1,33 +1,48 @@
 # holbertonschool-cyber_security
 
-Ce dépôt contient plusieurs projets liés à la cybersécurité, avec un focus sur les bases de la sécurité, la sécurité des systèmes Linux, et la sécurité réseau. Ces projets sont conçus pour renforcer les compétences en analyse de sécurité, en défense contre les attaques, et en reconnaissance réseau.
+![Cybersecurity Image]([./screenshots/cybersecurity_dashboard.png](https://datascientest.com/wp-content/uploads/2021/04/DALL%C2%B7E-2024-01-23-17.44.21-Creation-dune-illustration-plus-specifique-a-la-cybersecurite-pour-un-article-en-format-16_9.-Limage-doit-evoquer-clairement-la-cybersecurite-avec-.png))
 
-## cybersecurity_basics
+Bienvenue dans le dépôt de cybersécurité. Ce projet est une collection de défis et d'exercices visant à développer les compétences en sécurité numérique, en particulier dans les domaines de la sécurité des systèmes Linux, la reconnaissance réseau, et l'analyse de trafic. Chaque projet présente des outils et des techniques utilisés dans le domaine pour comprendre et contrer les menaces actuelles.
 
-### 0x00_introduction_cybersecurity
-Introduction aux concepts fondamentaux de la cybersécurité, incluant les types de menaces et les stratégies de défense.
+## À propos de moi
 
-## linux_security
+Je suis un étudiant dans le domaine de la cybersécurité et le développement de solutions innovantes pour renforcer la sécurité des systèmes informatiques.
 
-### 0x00_linux_security_basics
-Exploration des bases de la sécurité sous Linux, avec des pratiques pour renforcer la protection des systèmes.
+## Projets Inclus
 
-## network_security
+### cybersecurity_basics
+**0x00_introduction_cybersecurity** : Une introduction à la cybersécurité couvrant les types de menaces et les stratégies défensives.
 
-### 0x01_passive_reconnaissance
-Techniques de reconnaissance passive pour identifier les cibles sans interagir directement avec elles.
+### linux_security
+**0x00_linux_security_basics** : Les bases de la sécurisation des systèmes Linux, incluant les permissions, les firewalls, et la configuration des services critiques.
 
-### 0x02_active_reconnaissance
-Méthodes de reconnaissance active, impliquant une interaction directe avec les cibles pour recueillir des informations.
+### network_security
+- **0x01_passive_reconnaissance** : Techniques d'analyse passive pour obtenir des informations sur les cibles sans déclencher d'alertes.
+- **0x02_active_reconnaissance** : Reconnaissance active, interagissant directement avec les systèmes cibles pour identifier les vulnérabilités.
+- **0x04_nmap_live_hosts_discovery** : Utilisation de `nmap` pour découvrir des hôtes actifs et cartographier les réseaux.
+- **0x05_wireshark_basics** : Analyse du trafic réseau avec `Wireshark` pour surveiller les données en temps réel.
 
-### 0x04_nmap_live_hosts_discovery
-Utilisation de `nmap` pour découvrir des hôtes actifs sur un réseau et obtenir des informations cruciales pour la reconnaissance.
+## Histoire du projet
 
-### 0x05_wireshark_basics
-Initiation à `Wireshark` pour analyser le trafic réseau et identifier des vulnérabilités ou des activités suspectes.
+Ce projet est né d'un désir de mieux comprendre les méthodes utilisées par les attaquants pour compromettre les systèmes informatiques et de développer des compétences pratiques pour les contrer. À travers ces exercices, je me suis concentré sur l'apprentissage des outils standards comme `nmap` et `Wireshark`, ainsi que sur des concepts fondamentaux comme la gestion des permissions Linux et la surveillance réseau.
 
-## Utilisation
-Chaque projet peut être exploré indépendamment pour mieux comprendre les concepts et outils de la cybersécurité. Des instructions spécifiques sont fournies dans chaque dossier.
+## Fonctionnalités
 
-## Licence
-Ce dépôt est sous licence MIT. Contributions et suggestions sont les bienvenues pour améliorer ces projets.
+### Fonctionnalités implémentées :
+- Sécurisation de base des systèmes Linux.
+- Utilisation des outils de reconnaissance réseau.
+- Analyse réseau via `Wireshark`.
+
+### Fonctionnalités futures :
+- Ajout de scripts d'automatisation pour les scans de vulnérabilités.
+- Renforcement de la sécurité réseau avec des pare-feux avancés.
+- Intégration avec des outils de SIEM pour la gestion des événements de sécurité.
+
+## Installation et Utilisation
+
+Pour démarrer avec ces projets, suivez ces étapes :
+
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/NicolasLearn/holbertonschool-cyber_security.git
+
