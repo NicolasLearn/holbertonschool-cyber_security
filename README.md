@@ -22,6 +22,9 @@ Je suis un étudiant dans le domaine de la cybersécurité et le développement 
 - **0x04_nmap_live_hosts_discovery** : Utilisation de `nmap` pour découvrir des hôtes actifs et cartographier les réseaux.
 - **0x05_wireshark_basics** : Analyse du trafic réseau avec `Wireshark` pour surveiller les données en temps réel.
 
+### web_application_security
+- **0x00_web_fundamentals** : Introduction aux bases du fonctionnement des applications web, couvrant les concepts fondamentaux tels que le protocole HTTP, les requêtes et réponses, ainsi que la structure client-serveur. Ce projet met en lumière les points d'entrée typiques utilisés par les attaquants, et explore les vulnérabilités communes telles que les injections de script (XSS) et les failles d'authentification. Comprendre ces concepts permet de mieux se préparer aux audits de sécurité et de renforcer la résilience des applications face aux cyberattaques.
+
 ## Histoire du projet
 
 Ce projet est né d'un désir de mieux comprendre les méthodes utilisées par les attaquants pour compromettre les systèmes informatiques et de développer des compétences pratiques pour les contrer. À travers ces exercices, je me suis concentré sur l'apprentissage des outils standards comme `nmap` et `Wireshark`, ainsi que sur des concepts fondamentaux comme la gestion des permissions Linux et la surveillance réseau.
