@@ -48,4 +48,3 @@ Pour démarrer avec ces projets, suivez ces étapes :
 1. Clonez le dépôt :
    ```bash
    git clone https://github.com/NicolasLearn/holbertonschool-cyber_security.git
-
