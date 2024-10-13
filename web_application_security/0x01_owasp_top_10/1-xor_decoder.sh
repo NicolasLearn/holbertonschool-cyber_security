@@ -19,10 +19,10 @@ output=""
 # Parcourt chaque caractère de la chaîne décodée
 for ((i = 0; i < ${#decoded_password}; i++)); do
     char="${decoded_password:$i:1}"
-    
+
     # Effectue l'opération XOR avec 95 (en supprimant les octets nuls)
     xor_result=$(( $(printf "%d" "'$char") ^ 95 ))
-    
+
     # Ajoute le résultat final à la sortie
     output+=$(printf "\\$(printf '%03o' $xor_result)")
 done
